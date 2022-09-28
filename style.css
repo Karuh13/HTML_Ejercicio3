@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    width:1840px ;
+}
+
+main {
+    background-color: grey;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    width: 1600px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+}
+
+.product {
+    height: 490px;
+    width: 360px;
+    margin: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
