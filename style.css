@@ -4,30 +4,157 @@
     padding: 0;
 }
 
-header {
-    height: 150px;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-between;
-    width:1840px ;
+a {
+    text-decoration: none;
+    color: black;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100% ;
+}
+
+img {
+    object-fit: none;
+}
+
+.header-element {
+    width: 200px;
+    display: flex;
+}
+
+.dropdown * {
+    padding: 7px;
+}
+
+.title-div {
+    flex-flow: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.abc {
+    white-space: nowrap;
+}
+
+.nav-div, .nav-form {
+    display: flex;
+    align-items: center;
+}
+
+.nav-form {
+    border-bottom: 2px solid black;
+}
+
+.search {
+    display: flex;
+}
+
+.search-bar {
+    height: 100%;
+    border: none;
+    width: 150px;
+    background: none;
+    padding: 2px;
+}
+
+
 main {
-    background-color: grey;
     display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
-    width: 1600px;
-    margin-left: 120px;
-    margin-right: 120px;
+    width: 90%;
 
 }
 
 .product {
-    height: 490px;
+    min-height: 490px;
     width: 360px;
     margin: 20px;
     display: flex;
     flex-flow: column;
+    align-items: center;
+    min-width: 22.5%;
+    max-width: 22.5%;
+}
+
+.product img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product p {
+    font-size: 1rem;
+}
+
+footer {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-div{
+    border-top: 1px solid rgb(133, 131, 131);
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.under-line {
+    border-bottom: 2px black solid;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.long-bar {
+    width: 300px;
+}
+
+.vert {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.last-class {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spread {
+    justify-content: space-around;
+}
+
+.lefty {
+    align-items: flex-start;
+}
+
+.list-cont p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.last-foot-div {
+    display: flex;
+    border-right: 1px solid rgb(133, 131, 131);
+    height: 30px;
+    width: 25%;
+    justify-content: center;
     align-items: center;
 }
